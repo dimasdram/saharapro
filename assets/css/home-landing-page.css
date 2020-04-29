@@ -898,7 +898,7 @@ testimonials
 #testimonials .item .testimonial-content {
   background: #214a24;
   background: linear-gradient(145deg, #ae8f68 0%, #d3b786 100%);
-  margin-left: 60px;
+  margin-left: 6px;
   padding: 40px 30px;
   text-align: center;
   border-radius: 5px;
