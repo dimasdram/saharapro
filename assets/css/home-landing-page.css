@@ -42,7 +42,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
-.sahara{
+.ishara{
   color: #214a24;
   font-weight: bolder;
 }
@@ -711,7 +711,7 @@ welcome
   position: relative;
 }
 
-.title-does-sahara {
+.title-does-ishara {
   text-align: center;
   color: #214a24;
 }
@@ -1003,7 +1003,7 @@ footer
 footer {
   margin-top: 50  px;
   padding-top: 120px;
-  background-image: url(../images/footer-bg-sahara.png);
+  background-image: url(../images/footer-bg-ishara.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
