@@ -667,10 +667,11 @@ welcome
   height: auto;
   position: relative;
   padding-top: 120px;
-  min-height: 620px;
+  min-height: 700px;
   background-image: url(../images/banner-bg-welcome.png);
   background-repeat: no-repeat;
   background-size: 100%;
+  padding-bottom: 100px;
   /* background-position: center top; */
   padding: 0;
 }
