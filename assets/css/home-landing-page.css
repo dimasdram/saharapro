@@ -205,6 +205,10 @@ button.main-button {
   transition: all 0.3s ease 0s;
 }
 
+.prev:active,.next:active {
+  opacity:0.5;
+}
+
 button.main-button:hover {
   background-color: #d3b786;
 }
@@ -235,6 +239,10 @@ button.main-button:hover {
 }
 
 .container-sub{
+  padding-top: 100px;
+}
+
+.feature-size{
   padding-top: 100px;
 }
 
