@@ -13,7 +13,7 @@ h2 {
 	margin-bottom: 0;
 }
 .carousel {
-	padding: 20px;
+	padding: 0px;
 	perspective: 500px;
 	overflow: hidden;
 	display: flex;
@@ -24,11 +24,31 @@ h2 {
 	flex: 0 0 auto;
 }
 .carousel figure {
-	margin: 0;
+	margin-bottom: 500px;
 	width: 60%;
 	transform-style: preserve-3d;
 	transition: transform 0.5s;
 }
+
+.image-title{
+	padding: 10px;
+	text-align: center;
+	background-color: #214a24;
+	color: white;
+	border: 1px solid #d3b786;
+	width: auto;
+	border-radius: 25px;
+}
+.image-title:hover{
+	color: gold;
+}
+
+
+.wow{
+	position: absolute;
+	padding: 0;
+}
+
 .carousel figure img {
 	width: 100%;
 	box-sizing: border-box;

@@ -37,7 +37,7 @@ function carousel(root) {
 		figure.style.transformOrigin = `50% 50% ${- apothem}px`;
 
 		for (var i = 0; i < n; i++)
-			images[i].style.padding = `${gap/3}px ${gap}px`;
+			images[i].style.padding = `${gap/4}px ${gap}px`;
 		for (i = 1; i < n; i++) {
 			images[i].style.transformOrigin = `50% 50% ${- apothem}px`;
 			images[i].style.transform = `rotateY(${i * theta}rad)`;
