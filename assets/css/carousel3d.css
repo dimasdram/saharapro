@@ -13,19 +13,20 @@ h2 {
 	margin-bottom: 0;
 }
 .carousel {
-	padding: 0px;
+	/* padding: 0px; */
 	perspective: 500px;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-bottom: 100px;
 }
 .carousel > * {
 	flex: 0 0 auto;
 }
 .carousel figure {
 	margin-bottom: 500px;
-	width: 60%;
+	width: 50%;
 	transform-style: preserve-3d;
 	transition: transform 0.5s;
 }

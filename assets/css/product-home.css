@@ -1,7 +1,7 @@
 .MultiCarousel { float: left; overflow: hidden; padding: 20px;padding-bottom: 40px; width: 100%; position:relative; }
     .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
         .MultiCarousel .MultiCarousel-inner .item { float: left;}
-        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#fff5e3; color:white;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:25px; margin:10px; background:#fff5e3; color:white; border-radius: 50px; }
     .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
     .MultiCarousel .leftLst { left:0; }
     .MultiCarousel .rightLst { right:0; }
@@ -9,14 +9,14 @@
         .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:white; }
 
 .image-product{
-    background-image: url(https://source.unsplash.com/VkwRmha1_tI/800x533);
+    /* background-image: url(../images/our-products/example1.png); */
     /* background-size:200px;                 */
-    background-size:auto; 
+    /* background-size:auto;  */
     background-repeat:   no-repeat;
     background-position: center center;      
-    padding: 150px 1px ;
-
+    /* padding: 150px 1px ; */
 }
+
 .lead{
     padding-top: 5px;
     color: #214a24;
